@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="elel">this is 3 session of fullstack</p>
+    <p id="ad-1">this what</p>
+    <p id="ad-2">and now uisbj howk</p>
+    <button id="ads-1" onclick="multiply(8,6)">calculate</button>
+    <script>
+      document.getElementById("elel").inneHTML = "some text";
+      let x = document.getElementById("elel").innerHTML;
+      document.getElementById("ad-2").innerHTML = x;
+
+      function multiply(n1, n2) {
+        let result= n1 * n2;
+        document.getElementById("ads-1").innerHTML=result;
+      }
+      //let result =multiply(8,6);
+      
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,96 @@
+/* Container styles */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2563eb; /* Tailwind's bg-blue-700 */
+  padding: 1rem;
+}
+
+/* Card styles */
+.login-card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  padding: 1.5rem;
+  background-color: #2563eb; /* Tailwind's bg-blue-700 */
+  border: 1px solid #2563eb; /* Tailwind's border-blue-600 */
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+/* Icon styles */
+.icon-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* Form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #2563eb; /* Tailwind's bg-blue-700 */
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  color: white;
+}
+
+.input-field {
+  background-color: #2563eb; /* Tailwind's bg-blue-700 */
+  width: 100%;
+  font-size: 1rem; /* Tailwind's text-md */
+  padding-left: 1rem;
+  color: white;
+  outline: none;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+/* Button styles */
+.login-button {
+  background-color: white;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  margin-top: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login-button:hover {
+  background-color: #f1f5f9; /* Tailwind's bg-slate-100 */
+}
+
+/* Forgot password link */
+.forgot-password {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forgot-password a {
+  color: white;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
